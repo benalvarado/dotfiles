@@ -38,7 +38,7 @@ set selectmode=mouse
 set nobackup
 set nowritebackup
 set list
-set listchars=tab:>.
+set listchars=tab:>.,trail:·
 
 let mapleader=","
 
@@ -50,3 +50,5 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
