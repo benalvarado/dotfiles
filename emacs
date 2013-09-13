@@ -8,8 +8,8 @@
 (line-number-mode 1)
 (column-number-mode 1)
 ;(load-theme 'wombat t)
-
-(load-theme 'adwaita t)
+;(load-theme 'zenburn t)
+;(load-theme 'adwaita t)
 
 ;(define-key global-map (kbd "RET") 'newline-and-indent)
 
@@ -18,9 +18,12 @@
 ;(setq mac-command-modifier 'meta)
 ;(setq mac-option-modifier nil)
 
-;(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
 (set-face-attribute 'default (selected-frame) :height 150)
+
+
 
 ;(autoload 'powershell-mode "powershell-mode" "A editing mode for Microsoft PowerShell." t)
 ;(add-to-list 'auto-mode-alist '("\\.ps1\\'" . powershell-mode))

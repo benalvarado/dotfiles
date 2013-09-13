@@ -2,7 +2,8 @@ filetype on
 filetype plugin on
 filetype indent on
 syntax on
-color Tomorrow-Night
+set t_Co=256
+color railscasts
 set wildmenu
 set wildmode=list:longest
 set number
@@ -50,5 +51,7 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:match ExtraWhitespace /\s\+$/
+" :highlight ExtraWhitespace ctermbg=red guibg=red
+" :match ExtraWhitespace /\s\+$/
+
+map <Leader>r :w<CR>:!rake<CR>
