@@ -55,3 +55,5 @@ nnoremap <C-y> 3<C-y>
 " :match ExtraWhitespace /\s\+$/
 
 map <Leader>r :w<CR>:!rake<CR>
+map <Leader>s :sp<CR>
+map <Leader>v :vsp<CR>
