@@ -3,7 +3,8 @@ filetype plugin on
 filetype indent on
 syntax on
 set t_Co=256
-color railscasts
+color tir_black
+set textwidth=80
 set wildmenu
 set wildmode=list:longest
 set number
@@ -11,7 +12,9 @@ set showmode
 set showcmd
 set smartindent
 set autoindent
-set spelllang=en_us
+set spell spelllang=en_us
+set complete+=kspell
+" set spelllang=en_us
 set ruler
 set nocompatible
 set hidden
