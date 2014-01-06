@@ -60,3 +60,6 @@ nnoremap <C-y> 3<C-y>
 map <Leader>r :w<CR>:!rake<CR>
 map <Leader>s :sp<CR>
 map <Leader>v :vsp<CR>
+
+autocmd VimEnter * edit ~/.vim/vimcs.txt
+autocmd VimEnter * b 1
